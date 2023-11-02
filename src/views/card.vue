@@ -1,8 +1,8 @@
 <script lang="ts" setup>
-import Card from '../components/card/index.vue'
+// import Card from '../../package/card/index.vue'
 </script>
 <template>
-  <Card class="box-card">
+  <g-card class="box-card">
     <template #header>
       <div class="card-header">
         <span>Card name</span>
@@ -10,7 +10,7 @@ import Card from '../components/card/index.vue'
       </div>
     </template>
     <div v-for="o in 4" :key="o" class="text item">{{ 'List item ' + o }}</div>
-  </Card>
+  </g-card>
 </template>
 
 <style>

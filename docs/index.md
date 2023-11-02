@@ -3,15 +3,15 @@
 layout: home
 
 hero:
-  name: "Got UI Project"
-  text: "Vue3+TS Library"
-  tagline: My great project tagline
+  name: 'Got UI Library'
+  text: '轻量级UI组件库'
+  tagline: Vue3 + TypeScript
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 开始使用
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: 使用文档
       link: /api-examples
 
 features:
@@ -22,4 +22,3 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
