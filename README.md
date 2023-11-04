@@ -35,10 +35,10 @@ npm run lint
 ## Doc Project Setup
 
 ```sh
-cd docs && npm run docs:dev
+npm run docs:dev
 ```
 
-## Else
+## 关于包的发布
 
 打包，生成lib文件夹
 
@@ -50,4 +50,10 @@ npm run build
 
 ```
 npm publish --access public
+```
+
+## 关于文档指南页面的部署
+
+```sh
+npm run deploy
 ```
