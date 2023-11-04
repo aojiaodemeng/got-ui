@@ -37,3 +37,17 @@ npm run lint
 ```sh
 cd docs && npm run docs:dev
 ```
+
+## Else
+
+打包，生成lib文件夹
+
+```sh
+npm run build
+```
+
+公开发布
+
+```
+npm publish --access public
+```
