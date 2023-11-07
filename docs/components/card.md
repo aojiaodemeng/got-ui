@@ -1,14 +1,16 @@
 # Card组件
 
-<g-card class="box-card">
-    <template #header>
-      <div class="card-header">
-        <span>Card name</span>
-        <el-button class="button" text>Operation button</el-button>
-      </div>
-    </template>
-    <div v-for="o in 4" :key="o" class="text item">{{ 'List item ' + o }}</div>
-  </g-card>
+<preview path="../examples/GCard/base.vue"></preview>
+
+<!-- <g-card class="box-card">
+<template #header>
+<div class="card-header">
+<span>Card name</span>
+<el-button class="button" text>Operation button</el-button>
+</div>
+</template>
+<div v-for="o in 4" :key="o" class="text item">{{ 'List item ' + o }}</div>
+</g-card> -->
 
 ## API
 

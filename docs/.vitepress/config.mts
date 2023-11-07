@@ -1,11 +1,17 @@
 import { defineConfig } from 'vitepress'
-
+import { containerPreview, componentPreview } from '@vitepress-demo-preview/plugin'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'Got UI Project',
   description: 'Vue3+TS Library',
   base: '/got-ui/',
   lastUpdated: true,
+  markdown: {
+    config(md) {
+      md.use(containerPreview)
+      md.use(componentPreview)
+    }
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

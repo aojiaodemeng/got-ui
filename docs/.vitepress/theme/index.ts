@@ -4,6 +4,12 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 import GotUi from '../../../packages'
+import {
+  AntDesignContainer,
+  ElementPlusContainer,
+  NaiveUIContainer
+} from '@vitepress-demo-preview/component'
+import '@vitepress-demo-preview/component/dist/style.css'
 
 export default {
   extends: DefaultTheme,
@@ -14,6 +20,7 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     app.use(GotUi)
+    app.component('demo-preview', AntDesignContainer)
     // ...
   }
 } satisfies Theme
