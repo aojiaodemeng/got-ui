@@ -54,6 +54,8 @@ npm publish --access public   // 每次发布时先更新下package.json里的ve
 
 ## 关于文档指南页面的部署
 
+部署前先切换到gh-pages分支
+
 ```sh
 npm run deploy
 ```
