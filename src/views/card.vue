@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-// import Card from '../../package/card/index.vue'
+import GTag from '../../packages/Tag/src/index.vue'
 </script>
 <template>
   <g-card class="box-card">
@@ -11,6 +11,8 @@
     </template>
     <div v-for="o in 4" :key="o" class="text item">{{ 'List item ' + o }}</div>
   </g-card>
+
+  <g-tag type="primary">sss</g-tag>
 </template>
 
 <style>
