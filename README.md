@@ -49,7 +49,7 @@ npm run build
 公开发布
 
 ```
-npm publish --access public
+npm publish --access public   // 每次发布时先更新下package.json里的version
 ```
 
 ## 关于文档指南页面的部署
@@ -57,3 +57,5 @@ npm publish --access public
 ```sh
 npm run deploy
 ```
+
+部署的页面在https://aojiaodemeng.github.io/got-ui/
