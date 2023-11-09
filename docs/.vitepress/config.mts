@@ -31,6 +31,7 @@ export default defineConfig({
         {
           text: '组件',
           items: [
+            { text: 'Icon图标', link: '/components/icon' },
             { text: 'Card卡片', link: '/components/card' },
             { text: 'Tag标签', link: '/components/tag' },
             { text: 'Divider分割线', link: '/components/divider' },
