@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import GTag from '../../packages/Tag/src/index.vue'
+// import GTag from '../../packages/Tag/src/index.vue'
 </script>
 <template>
   <g-card class="box-card">

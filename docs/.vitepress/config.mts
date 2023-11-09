@@ -30,7 +30,12 @@ export default defineConfig({
       '/components/': [
         {
           text: '组件',
-          items: [{ text: '卡片', link: '/components/card' }]
+          items: [
+            { text: 'Card卡片', link: '/components/card' },
+            { text: 'Tag标签', link: '/components/tag' },
+            { text: 'Divider分割线', link: '/components/divider' },
+            { text: 'Breadcrumb面包屑', link: '/components/breadcrumb' }
+          ]
         }
       ]
     },

@@ -1,8 +1,12 @@
 /**
  * 导出所有组件
  */
+import './style/index.scss'
+import Card from './card'
+import Tag from './tag'
+import Breadcrumb from './breadcrumb'
+import Divider from './divider'
 
-import Card from './Card'
+export default [Card, Tag, Breadcrumb, Divider]
 
-export default [Card]
-export { Card }
+export { Card, Tag, Breadcrumb, Divider }
