@@ -1,5 +1,5 @@
-const win = window as any
-const ph: Record<string, any> = (win.$ph = win.$ph || {})
+// const win = window as any
+const ph: Record<string, any> = {}
 export default {
   set(k: string, value: any) {
     ph[k] = value

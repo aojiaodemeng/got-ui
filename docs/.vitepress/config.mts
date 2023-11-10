@@ -17,8 +17,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: '指南', link: '/guide/installation', activeMatch: '/guide/' },
-      { text: '组件', link: '/components/card', activeMatch: '/components/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '组件', link: '/components/icon', activeMatch: '/components/' }
     ],
     sidebar: {
       '/guide/': [

@@ -19,7 +19,8 @@ const props = defineProps({
   size: String
 })
 const state = reactive({
-  hover: !('ontouchstart' in window)
+  // hover: !('ontouchstart' in window)
+  hover: false
 })
 const style = computed(() => {
   const style = {} as { [k: string]: unknown }
