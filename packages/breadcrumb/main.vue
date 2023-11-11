@@ -4,7 +4,7 @@
   </div>
 </template>
 <script lang="ts" setup>
-import { defineProps, PropType } from 'vue'
+import { defineProps, type PropType } from 'vue'
 import { type INavNode } from '../common/interface'
 defineOptions({
   name: 'GBreadcrumb'

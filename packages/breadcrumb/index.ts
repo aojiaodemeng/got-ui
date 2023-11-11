@@ -1,4 +1,4 @@
-import { App } from 'vue'
+import { type App } from 'vue'
 import Breadcrumb from './main.vue'
 Breadcrumb.install = function (app: App) {
   // 组件注册，按需引入

@@ -1,16 +1,11 @@
 <template>
-  <i
-    class="g-icon"
-    :type="type"
-    :style="style"
-    :disabled="disabled"
-    :hover="hover && state.hover && !disabled"
+  <i class="g-icon" :type="type" :disabled="disabled" :hover="hover && state.hover && !disabled"
     ><slot></slot
   ></i>
 </template>
 <script lang="ts" setup>
-import { reactive, defineProps, PropType, computed } from 'vue'
-import { IThemeType } from '../common/interface'
+import { reactive, defineProps, type PropType, computed } from 'vue'
+import { type IThemeType } from '../common/interface'
 const props = defineProps({
   hover: { type: Boolean, default: true },
   type: String as PropType<IThemeType>,

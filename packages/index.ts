@@ -1,6 +1,6 @@
 // 提供组件库全量注册引入及单个组件注册引入
 
-import { App } from 'vue'
+import { type App } from 'vue'
 import components from './component'
 // 所有组件
 export * from './component'

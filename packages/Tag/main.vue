@@ -4,7 +4,7 @@
   </div>
 </template>
 <script lang="ts" setup>
-import { computed, defineProps, PropType } from 'vue'
+import { computed, defineProps, type PropType } from 'vue'
 import { type IThemeType } from '../common/interface'
 defineOptions({
   name: 'GTag'

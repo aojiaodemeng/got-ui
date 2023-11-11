@@ -4,8 +4,8 @@
   </div>
 </template>
 <script lang="ts" setup>
-import { computed, defineProps, PropType } from 'vue'
-import { IThemeType } from '../common/interface'
+import { computed, defineProps, type PropType } from 'vue'
+import { type IThemeType } from '../common/interface'
 defineOptions({
   name: 'GDivider'
 })
